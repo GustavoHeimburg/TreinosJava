@@ -1,4 +1,4 @@
-package ProjetosTreinos;
+package ProjetosTreinos.database;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
