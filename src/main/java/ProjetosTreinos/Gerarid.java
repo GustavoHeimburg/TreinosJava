@@ -24,7 +24,8 @@ public class Gerarid {
         String loginUsername = scanner.nextLine();
         System.out.println("Digte sua senha:");
         String loginPassword = scanner.nextLine();
-
+        System.out.println("na proxima linha, vamos fazer um teste de verificação, é necessaria para terminar seu login.");
+        String lerLinha = scanner.nextLine();
         System.out.println("Digite 'd':");
         String input1 = scanner.nextLine();
 
