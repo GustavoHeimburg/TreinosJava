@@ -11,10 +11,10 @@ public class Gerarid {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Digite seu nome de usuário:");
+        System.out.println("Crie seu nome de usuario:");
         String username = scanner.nextLine();
 
-        System.out.println("Digite sua senha:");
+        System.out.println("Crie sua senha (6 a 10 digítos)");
         String password = scanner.nextLine();
 
         registerUser(username, password);
