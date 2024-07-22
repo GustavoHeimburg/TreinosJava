@@ -46,6 +46,8 @@ public class Gerarid {
         }else {
             System.out.println("Falha na verificação humana! refaça o teste e tente fazer login novamente!");
         }
+        System.out.println("Deseja criar outro ID unico de usuario? ENTER para SIM - BACKSPACE para NÂO");
+        String lerprox = scanner.nextLine();
 
     }
     public static void registerUser(String username, String password) {
